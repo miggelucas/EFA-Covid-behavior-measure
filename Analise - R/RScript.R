@@ -1,10 +1,8 @@
 library(psych)
+library(readr)
 
 
-
-
-df <- read.csv("database.csv")
-
+df <- read_csv("Base de Dados/database.csv")
 
 
 # Medidas de adequação para EFA
@@ -73,3 +71,4 @@ print(omega_fa2)
 ## omega_fa2 = 0.87 
 ## retirar o item "Uso.de.luvas.ao.sair.de.casa" aumenta o alpha para 0.80
 ## "Cobrir.a.boca.quando.tossir.ou.espirrar" faz sentido que esteja dentro do fator de distanciamento?
+
