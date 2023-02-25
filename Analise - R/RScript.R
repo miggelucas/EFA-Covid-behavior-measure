@@ -115,6 +115,9 @@ print(omega_fa2)
 ## "Cobrir.a.boca.quando.tossir.ou.espirrar" faz sentido que esteja dentro do fator de distanciamento?
 
 
-
+alpha_unico <- alpha(df)
+omega_unico <- omega(df, nfactors = 1,poly = TRUE)
+print(alpha_unico)
+print(omega_unico)
 
 
